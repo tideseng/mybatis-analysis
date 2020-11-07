@@ -1,7 +1,7 @@
-package com.tideseng.mybatis;
+package com.tideseng.mybatis.xml;
 
-import com.tideseng.mybatis.dao.IUserDao;
-import com.tideseng.mybatis.entity.User;
+import com.tideseng.mybatis.xml.dao.IUserDao;
+import com.tideseng.mybatis.xml.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -18,12 +18,12 @@ import java.util.List;
  * @create 2020/11/6 23:59
  */
 @Slf4j
-public class MybatisTest {
+public class MybatisXmlTest {
 
     @Test
     public void findAll() throws IOException {
         // 1.读取配置文件
-        InputStream in = Resources.getResourceAsStream("mybatis-config.xml");
+        InputStream in = Resources.getResourceAsStream("mybatis-config-xml.xml");
         // 2.使用建造者模式创建SqlSessionFactory工厂
         SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(in);
         // 3.使用工厂模式生产SqlSession对象

@@ -1,6 +1,7 @@
-package com.tideseng.mybatis.dao;
+package com.tideseng.mybatis.annotation.dao;
 
-import com.tideseng.mybatis.entity.User;
+import com.tideseng.mybatis.annotation.entity.User;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -14,6 +15,7 @@ public interface IUserDao {
      * 查询所有用户
      * @return
      */
+    @Select("select * from user")
     List<User> findAll();
 
 }
