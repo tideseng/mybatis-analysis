@@ -8,4 +8,4 @@ master分支无功能代码，只更新md说明文件
 
 ### 版本说明
 
-- tag-v1.0 [mybatis快速入门-xml实现](https://github.com/tideseng/mybatis-analysis/tree/v1.0)
+- tag-v1.0 [mybatis快速入门-xml和注解实现](https://github.com/tideseng/mybatis-analysis/tree/v1.0)
