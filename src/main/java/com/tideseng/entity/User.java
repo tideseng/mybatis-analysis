@@ -1,4 +1,4 @@
-package com.tideseng.mybatis.xml.entity;
+package com.tideseng.entity;
 
 import lombok.Data;
 

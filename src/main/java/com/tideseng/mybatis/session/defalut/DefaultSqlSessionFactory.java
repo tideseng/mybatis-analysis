@@ -1,0 +1,29 @@
+package com.tideseng.mybatis.session.defalut;
+
+import com.tideseng.mybatis.config.Configuration;
+import com.tideseng.mybatis.session.SqlSession;
+import com.tideseng.mybatis.session.SqlSessionFactory;
+
+/**
+ * @Author 章佳欢-何鑫
+ * @create 2020/11/8 23:46
+ * SqlSessionFactory接口的实现类
+ */
+public class DefaultSqlSessionFactory implements SqlSessionFactory {
+
+    private Configuration cfg;
+
+    public DefaultSqlSessionFactory(Configuration cfg){
+        this.cfg = cfg;
+    }
+
+    /**
+     * 用于创建一个新的操作数据库对象
+     * @return
+     */
+    @Override
+    public SqlSession openSession() {
+        return new DefaultSqlSession(cfg);
+    }
+
+}

@@ -1,12 +1,12 @@
 package com.tideseng.mybatis.xml;
 
-import com.tideseng.mybatis.xml.dao.IUserDao;
-import com.tideseng.mybatis.xml.entity.User;
+import com.tideseng.dao.IUserDao;
+import com.tideseng.entity.User;
+import com.tideseng.mybatis.io.Resources;
+import com.tideseng.mybatis.session.SqlSession;
+import com.tideseng.mybatis.session.SqlSessionFactory;
+import com.tideseng.mybatis.session.SqlSessionFactoryBuilder;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  * @Author 章佳欢-何鑫
- * @create 2020/11/6 23:59
+ * @create 2020/11/9 21:33
  */
 @Slf4j
 public class MybatisXmlTest {

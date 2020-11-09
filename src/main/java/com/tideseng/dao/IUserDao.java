@@ -1,13 +1,13 @@
-package com.tideseng.mybatis.annotation.dao;
+package com.tideseng.dao;
 
-import com.tideseng.mybatis.annotation.entity.User;
-import org.apache.ibatis.annotations.Select;
+import com.tideseng.entity.User;
+import com.tideseng.mybatis.annotation.Select;
 
 import java.util.List;
 
 /**
  * @Author 章佳欢-何鑫
- * @create 2020/11/6 23:14
+ * @create 2020/11/8 22:59
  */
 public interface IUserDao {
 

@@ -1,13 +1,13 @@
 package com.tideseng.mybatis.annotation;
 
-import com.tideseng.mybatis.annotation.dao.IUserDao;
-import com.tideseng.mybatis.annotation.dao.impl.UserDaoImpl;
-import com.tideseng.mybatis.annotation.entity.User;
+import com.tideseng.dao.IUserDao;
+import com.tideseng.dao.impl.UserDaoImpl;
+import com.tideseng.entity.User;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import com.tideseng.mybatis.io.Resources;
+import com.tideseng.mybatis.session.SqlSession;
+import com.tideseng.mybatis.session.SqlSessionFactory;
+import com.tideseng.mybatis.session.SqlSessionFactoryBuilder;
 import org.junit.Test;
 
 import java.io.IOException;

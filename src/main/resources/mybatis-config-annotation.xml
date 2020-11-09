@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">-->
 <configuration>
 
     <properties resource="db.properties"></properties>
@@ -21,7 +21,7 @@
 
     <!-- 映射配置文件 -->
     <mappers>
-        <mapper class="com.tideseng.mybatis.annotation.dao.IUserDao"/>
+        <mapper class="com.tideseng.dao.IUserDao"/>
     </mappers>
 
 </configuration>
