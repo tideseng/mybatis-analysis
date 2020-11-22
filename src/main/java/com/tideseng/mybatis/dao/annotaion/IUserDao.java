@@ -1,6 +1,6 @@
-package com.tideseng.mybatis.annotation.dao;
+package com.tideseng.mybatis.dao.annotaion;
 
-import com.tideseng.mybatis.annotation.entity.User;
+import com.tideseng.mybatis.entity.User;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;

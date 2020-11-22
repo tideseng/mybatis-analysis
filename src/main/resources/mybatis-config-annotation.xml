@@ -19,9 +19,9 @@
         </environment>
     </environments>
 
-    <!-- 映射配置文件 -->
+    <!-- 映射配置文件：接口类的全类名 -->
     <mappers>
-        <mapper class="com.tideseng.mybatis.annotation.dao.IUserDao"/>
+        <mapper class="com.tideseng.mybatis.dao.annotaion.IUserDao"/>
     </mappers>
 
 </configuration>

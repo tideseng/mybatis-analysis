@@ -1,8 +1,8 @@
 package com.tideseng.mybatis.annotation;
 
-import com.tideseng.mybatis.annotation.dao.IUserDao;
-import com.tideseng.mybatis.annotation.dao.impl.UserDaoImpl;
-import com.tideseng.mybatis.annotation.entity.User;
+import com.tideseng.mybatis.dao.annotaion.IUserDao;
+import com.tideseng.mybatis.dao.annotaion.impl.UserDaoImpl;
+import com.tideseng.mybatis.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;

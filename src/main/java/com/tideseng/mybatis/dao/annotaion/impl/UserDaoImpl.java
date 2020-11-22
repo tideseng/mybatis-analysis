@@ -1,7 +1,7 @@
-package com.tideseng.mybatis.annotation.dao.impl;
+package com.tideseng.mybatis.dao.annotaion.impl;
 
-import com.tideseng.mybatis.annotation.dao.IUserDao;
-import com.tideseng.mybatis.annotation.entity.User;
+import com.tideseng.mybatis.dao.annotaion.IUserDao;
+import com.tideseng.mybatis.entity.User;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 
@@ -30,7 +30,7 @@ public class UserDaoImpl implements IUserDao {
     @Override
     public List<User> findAll() {
         SqlSession sqlSession = factory.openSession();
-        List<User> users = sqlSession.selectList("com.tideseng.mybatis.annotation.dao.IUserDao.findAll");
+        List<User> users = sqlSession.selectList("com.tideseng.mybatis.dao.annotaion.IUserDao.findAll");
         sqlSession.close();
         return users;
     }

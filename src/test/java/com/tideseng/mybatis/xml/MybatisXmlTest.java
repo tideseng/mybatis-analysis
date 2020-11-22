@@ -1,7 +1,7 @@
 package com.tideseng.mybatis.xml;
 
-import com.tideseng.mybatis.xml.dao.IUserDao;
-import com.tideseng.mybatis.xml.entity.User;
+import com.tideseng.mybatis.dao.xml.IUserDao;
+import com.tideseng.mybatis.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;

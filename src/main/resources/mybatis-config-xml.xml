@@ -19,9 +19,9 @@
         </environment>
     </environments>
 
-    <!-- 映射配置文件 -->
+    <!-- 映射配置文件：xml配置文件地址 -->
     <mappers>
-        <mapper resource="com/tideseng/mybatis/xml/dao/IUserDao.xml"/>
+        <mapper resource="com/tideseng/mybatis/dao/xml/IUserDao.xml"/>
     </mappers>
 
 </configuration>

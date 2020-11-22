@@ -1,6 +1,9 @@
-package com.tideseng.mybatis.xml.entity;
+package com.tideseng.mybatis.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
@@ -9,6 +12,9 @@ import java.util.Date;
  * @create 2020/11/6 23:14
  */
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class User {
 
     private Integer id;

@@ -5,7 +5,7 @@ CREATE TABLE `user` (
   `birthday` date DEFAULT NULL,
   `sex` tinyint(4) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `user` VALUES ('1', '章佳欢', '1979-11-06', '1');
 INSERT INTO `user` VALUES ('2', '何鑫', '1989-11-06', '0');

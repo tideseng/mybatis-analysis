@@ -1,6 +1,6 @@
-package com.tideseng.mybatis.xml.dao;
+package com.tideseng.mybatis.dao.xml;
 
-import com.tideseng.mybatis.xml.entity.User;
+import com.tideseng.mybatis.entity.User;
 
 import java.util.List;
 
