@@ -55,7 +55,7 @@ public class MybatisAnnotationTest {
         SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(in);
         // 3.创建Dao接口的实现类
         IUserDao userDao = new UserDaoImpl(factory);
-        // 4.使用代理对象执行方法
+        // 4.使用实现类对象执行方法
         List<User> users = userDao.findAll();
         users.forEach(user -> log.info(user.toString()));
         in.close();
