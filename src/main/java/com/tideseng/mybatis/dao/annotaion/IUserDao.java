@@ -16,6 +16,8 @@ public interface IUserDao {
      * @return
      */
     @Select("select * from user")
+    @com.tideseng.mybatis.framework.annotation.Select("select * from user")
     List<User> findAll();
+
 
 }
